@@ -16,10 +16,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-      <button ref={this.myButtonRef}>My Button Ref for focus life</button>
-      <Child  setFocus={this.setFocus} /> 
+        <button ref={this.myButtonRef}>My Button Ref for focus life</button>
+        <Child  setFocus={this.setFocus} /> 
       </div>
-      
     )
   }
 }
